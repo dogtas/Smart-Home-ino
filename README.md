@@ -18,9 +18,9 @@ Beschreibung der Alarmanlage
 
 Entwickler
 ---------
-Okan Dogtas (4450377)
-Sercan Eyigün (4444473)
-Manuel Schendel (000000)
+ *	Okan Dogtas (4450377)
+ *	Sercan Eyigün (4444473)
+ *	Manuel Schendel (000000)
 
 Erweiterungsmöglichkeiten
 ---------
