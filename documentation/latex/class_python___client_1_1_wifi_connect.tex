@@ -1,0 +1,129 @@
+\hypertarget{class_python___client_1_1_wifi_connect}{}\section{Python\+\_\+\+Client.\+Wifi\+Connect Class Reference}
+\label{class_python___client_1_1_wifi_connect}\index{Python\+\_\+\+Client.\+Wifi\+Connect@{Python\+\_\+\+Client.\+Wifi\+Connect}}
+
+
+a class for the Wifi connection  
+
+
+Inheritance diagram for Python\+\_\+\+Client.\+Wifi\+Connect\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_python___client_1_1_wifi_connect}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{class_python___client_1_1_wifi_connect_a5abd335772d88bbc04fee603eed75852}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self, window, T\+C\+P\+\_\+\+IP, T\+C\+P\+\_\+\+P\+O\+RT, on\+\_\+receive)
+\begin{DoxyCompactList}\small\item\em the default constructor \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{class_python___client_1_1_wifi_connect_ad5bac3310c58f99485738c056718a3ca}{send\+\_\+msg}} (self, message)
+\begin{DoxyCompactList}\small\item\em Sends message to the arduino. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{class_python___client_1_1_wifi_connect_ac05ef987e930e48c8c5bb8056c2ca68b}{close}} (self)
+\begin{DoxyCompactList}\small\item\em close the connection \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{class_python___client_1_1_wifi_connect_a6eb0999228a1fc0e8f76d7aad443b6c5}{periodic\+\_\+socket\+\_\+check}} (self)
+\begin{DoxyCompactList}\small\item\em checks for received message \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_python___client_1_1_wifi_connect_a56ccc377926c457d236d91b299776574}\label{class_python___client_1_1_wifi_connect_a56ccc377926c457d236d91b299776574}} 
+{\bfseries window}
+\item 
+\mbox{\Hypertarget{class_python___client_1_1_wifi_connect_a95b489d481322d5a7b320095dd13d563}\label{class_python___client_1_1_wifi_connect_a95b489d481322d5a7b320095dd13d563}} 
+{\bfseries on\+\_\+receive}
+\item 
+\mbox{\Hypertarget{class_python___client_1_1_wifi_connect_a86da1a7e9cf31bd8085061341ab4e6b7}\label{class_python___client_1_1_wifi_connect_a86da1a7e9cf31bd8085061341ab4e6b7}} 
+{\bfseries socket}
+\item 
+\mbox{\Hypertarget{class_python___client_1_1_wifi_connect_a70bd3f97800dff409d3773c07bdb98d6}\label{class_python___client_1_1_wifi_connect_a70bd3f97800dff409d3773c07bdb98d6}} 
+\mbox{\hyperlink{class_python___client_1_1_wifi_connect_a70bd3f97800dff409d3773c07bdb98d6}{rd\+\_\+buff}}
+\begin{DoxyCompactList}\small\item\em connect to the arduino \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_python___client_1_1_wifi_connect_aeb42d01979f3311563dbcc9a3d027b99}\label{class_python___client_1_1_wifi_connect_aeb42d01979f3311563dbcc9a3d027b99}} 
+\mbox{\hyperlink{class_python___client_1_1_wifi_connect_aeb42d01979f3311563dbcc9a3d027b99}{after\+\_\+event}}
+\begin{DoxyCompactList}\small\item\em if a message has been received, the message will be send to the on\+\_\+receive method \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+a class for the Wifi connection 
+
+This class handles the connection between the arduino and the python program and also contains the methods to send and receive messages through the wirelles connection 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_python___client_1_1_wifi_connect_a5abd335772d88bbc04fee603eed75852}\label{class_python___client_1_1_wifi_connect_a5abd335772d88bbc04fee603eed75852}} 
+\index{Python\+\_\+\+Client\+::\+Wifi\+Connect@{Python\+\_\+\+Client\+::\+Wifi\+Connect}!\+\_\+\+\_\+init\+\_\+\+\_\+@{\+\_\+\+\_\+init\+\_\+\+\_\+}}
+\index{\+\_\+\+\_\+init\+\_\+\+\_\+@{\+\_\+\+\_\+init\+\_\+\+\_\+}!Python\+\_\+\+Client\+::\+Wifi\+Connect@{Python\+\_\+\+Client\+::\+Wifi\+Connect}}
+\subsubsection{\texorpdfstring{\+\_\+\+\_\+init\+\_\+\+\_\+()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily def Python\+\_\+\+Client.\+Wifi\+Connect.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{window,  }\item[{}]{T\+C\+P\+\_\+\+IP,  }\item[{}]{T\+C\+P\+\_\+\+P\+O\+RT,  }\item[{}]{on\+\_\+receive }\end{DoxyParamCaption})}
+
+
+
+the default constructor 
+
+This method handles the connection between the arduino and the python program as a client
+
+
+\begin{DoxyParams}{Parameters}
+{\em window} & The parent (root) window \\
+\hline
+{\em T\+C\+P\+\_\+\+IP} & Ip addres of the arduino \\
+\hline
+{\em T\+C\+P\+\_\+\+P\+O\+RT} & Port of the arduino \\
+\hline
+{\em on\+\_\+receive} & function to run when receiving a message from the arduino \\
+\hline
+{\em window} & parent window safed as local variable in the class \\
+\hline
+{\em on\+\_\+receive} & on\+\_\+receive function safed as local variable in the class \\
+\hline
+{\em socket} & safe the socket library as socket \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_python___client_1_1_wifi_connect_ac05ef987e930e48c8c5bb8056c2ca68b}\label{class_python___client_1_1_wifi_connect_ac05ef987e930e48c8c5bb8056c2ca68b}} 
+\index{Python\+\_\+\+Client\+::\+Wifi\+Connect@{Python\+\_\+\+Client\+::\+Wifi\+Connect}!close@{close}}
+\index{close@{close}!Python\+\_\+\+Client\+::\+Wifi\+Connect@{Python\+\_\+\+Client\+::\+Wifi\+Connect}}
+\subsubsection{\texorpdfstring{close()}{close()}}
+{\footnotesize\ttfamily def Python\+\_\+\+Client.\+Wifi\+Connect.\+close (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+
+
+close the connection 
+
+This method closes the connection between the arduino and the python program \mbox{\Hypertarget{class_python___client_1_1_wifi_connect_a6eb0999228a1fc0e8f76d7aad443b6c5}\label{class_python___client_1_1_wifi_connect_a6eb0999228a1fc0e8f76d7aad443b6c5}} 
+\index{Python\+\_\+\+Client\+::\+Wifi\+Connect@{Python\+\_\+\+Client\+::\+Wifi\+Connect}!periodic\+\_\+socket\+\_\+check@{periodic\+\_\+socket\+\_\+check}}
+\index{periodic\+\_\+socket\+\_\+check@{periodic\+\_\+socket\+\_\+check}!Python\+\_\+\+Client\+::\+Wifi\+Connect@{Python\+\_\+\+Client\+::\+Wifi\+Connect}}
+\subsubsection{\texorpdfstring{periodic\+\_\+socket\+\_\+check()}{periodic\_socket\_check()}}
+{\footnotesize\ttfamily def Python\+\_\+\+Client.\+Wifi\+Connect.\+periodic\+\_\+socket\+\_\+check (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+
+
+checks for received message 
+
+This method checks, if a message from the arduino has been send to the python programm in a periodic frequence 
+\begin{DoxyParams}{Parameters}
+{\em line} & here the received message is saved \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_python___client_1_1_wifi_connect_ad5bac3310c58f99485738c056718a3ca}\label{class_python___client_1_1_wifi_connect_ad5bac3310c58f99485738c056718a3ca}} 
+\index{Python\+\_\+\+Client\+::\+Wifi\+Connect@{Python\+\_\+\+Client\+::\+Wifi\+Connect}!send\+\_\+msg@{send\+\_\+msg}}
+\index{send\+\_\+msg@{send\+\_\+msg}!Python\+\_\+\+Client\+::\+Wifi\+Connect@{Python\+\_\+\+Client\+::\+Wifi\+Connect}}
+\subsubsection{\texorpdfstring{send\+\_\+msg()}{send\_msg()}}
+{\footnotesize\ttfamily def Python\+\_\+\+Client.\+Wifi\+Connect.\+send\+\_\+msg (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{message }\end{DoxyParamCaption})}
+
+
+
+Sends message to the arduino. 
+
+This method sends a message to the E\+SP server (arduino)
+
+
+\begin{DoxyParams}{Parameters}
+{\em message} & contains the message to be send in bytes \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Python\+\_\+\+Client.\+py\end{DoxyCompactItemize}

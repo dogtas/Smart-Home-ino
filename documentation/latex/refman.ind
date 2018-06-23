@@ -1,0 +1,128 @@
+\begin{theindex}
+
+  \item {\+\_\+\+\_\+init\+\_\+\+\_\+}
+    \subitem {Python\+\_\+\+Client\+::\+Create\+Button}, \hyperpage{9}
+    \subitem {Python\+\_\+\+Client\+::\+Create\+Label}, \hyperpage{11}
+    \subitem {Python\+\_\+\+Client\+::\+Frame\+Buttons}, \hyperpage{13}
+    \subitem {Python\+\_\+\+Client\+::\+Wifi\+Connect}, \hyperpage{16}
+    \subitem {Python\+\_\+\+Client\+::\+Window\+Function}, 
+		\hyperpage{19}
+    \subitem {Python\+\_\+\+Client\+::send\+Mail}, \hyperpage{14}
+
+  \indexspace
+
+  \item {alarm\+\_\+handler}
+    \subitem {Python\+\_\+\+Client\+::\+Window\+Function}, 
+		\hyperpage{20}
+
+  \indexspace
+
+  \item {choose\+\_\+color}
+    \subitem {Python\+\_\+\+Client\+::\+Window\+Function}, 
+		\hyperpage{20}
+  \item {close}
+    \subitem {Python\+\_\+\+Client\+::\+Wifi\+Connect}, \hyperpage{16}
+  \item {create\+\_\+button}
+    \subitem {Python\+\_\+\+Client\+::\+Frame\+Buttons}, \hyperpage{13}
+
+  \indexspace
+
+  \item {forget\+\_\+frames}
+    \subitem {Python\+\_\+\+Client\+::\+Window\+Function}, 
+		\hyperpage{20}
+  \item {frame\+\_\+switch}
+    \subitem {Python\+\_\+\+Client\+::\+Frame\+Buttons}, \hyperpage{13}
+
+  \indexspace
+
+  \item {lights\+\_\+off}
+    \subitem {Python\+\_\+\+Client\+::\+Window\+Function}, 
+		\hyperpage{20}
+
+  \indexspace
+
+  \item {on\+\_\+receive}
+    \subitem {Python\+\_\+\+Client\+::\+Window\+Function}, 
+		\hyperpage{21}
+
+  \indexspace
+
+  \item {periodic\+\_\+socket\+\_\+check}
+    \subitem {Python\+\_\+\+Client\+::\+Wifi\+Connect}, \hyperpage{17}
+  \item {Python\+\_\+\+Client.\+Create\+Button}, \hyperpage{9}
+  \item {Python\+\_\+\+Client.\+Create\+Label}, \hyperpage{11}
+  \item {Python\+\_\+\+Client.\+Frame\+Buttons}, \hyperpage{12}
+  \item {Python\+\_\+\+Client.\+send\+Mail}, \hyperpage{14}
+  \item {Python\+\_\+\+Client.\+Wifi\+Connect}, \hyperpage{15}
+  \item {Python\+\_\+\+Client.\+Window\+Function}, \hyperpage{17}
+  \item {Python\+\_\+\+Client\+::\+Create\+Button}
+    \subitem {\+\_\+\+\_\+init\+\_\+\+\_\+}, \hyperpage{9}
+  \item {Python\+\_\+\+Client\+::\+Create\+Label}
+    \subitem {\+\_\+\+\_\+init\+\_\+\+\_\+}, \hyperpage{11}
+  \item {Python\+\_\+\+Client\+::\+Frame\+Buttons}
+    \subitem {\+\_\+\+\_\+init\+\_\+\+\_\+}, \hyperpage{13}
+    \subitem {create\+\_\+button}, \hyperpage{13}
+    \subitem {frame\+\_\+switch}, \hyperpage{13}
+  \item {Python\+\_\+\+Client\+::\+Wifi\+Connect}
+    \subitem {\+\_\+\+\_\+init\+\_\+\+\_\+}, \hyperpage{16}
+    \subitem {close}, \hyperpage{16}
+    \subitem {periodic\+\_\+socket\+\_\+check}, \hyperpage{17}
+    \subitem {send\+\_\+msg}, \hyperpage{17}
+  \item {Python\+\_\+\+Client\+::\+Window\+Function}
+    \subitem {\+\_\+\+\_\+init\+\_\+\+\_\+}, \hyperpage{19}
+    \subitem {alarm\+\_\+handler}, \hyperpage{20}
+    \subitem {choose\+\_\+color}, \hyperpage{20}
+    \subitem {forget\+\_\+frames}, \hyperpage{20}
+    \subitem {lights\+\_\+off}, \hyperpage{20}
+    \subitem {on\+\_\+receive}, \hyperpage{21}
+    \subitem {rgb}, \hyperpage{23}
+    \subitem {setup\+\_\+alarmframe}, \hyperpage{21}
+    \subitem {setup\+\_\+framebtn}, \hyperpage{21}
+    \subitem {setup\+\_\+frames}, \hyperpage{22}
+    \subitem {setup\+\_\+rgbframe}, \hyperpage{22}
+    \subitem {setup\+\_\+welcomeframe}, \hyperpage{23}
+    \subitem {setup\+\_\+window}, \hyperpage{23}
+    \subitem {window\+\_\+close}, \hyperpage{23}
+  \item {Python\+\_\+\+Client\+::send\+Mail}
+    \subitem {\+\_\+\+\_\+init\+\_\+\+\_\+}, \hyperpage{14}
+    \subitem {sendmail}, \hyperpage{15}
+
+  \indexspace
+
+  \item {rgb}
+    \subitem {Python\+\_\+\+Client\+::\+Window\+Function}, 
+		\hyperpage{23}
+
+  \indexspace
+
+  \item {send\+\_\+msg}
+    \subitem {Python\+\_\+\+Client\+::\+Wifi\+Connect}, \hyperpage{17}
+  \item {sendmail}
+    \subitem {Python\+\_\+\+Client\+::send\+Mail}, \hyperpage{15}
+  \item {setup\+\_\+alarmframe}
+    \subitem {Python\+\_\+\+Client\+::\+Window\+Function}, 
+		\hyperpage{21}
+  \item {setup\+\_\+framebtn}
+    \subitem {Python\+\_\+\+Client\+::\+Window\+Function}, 
+		\hyperpage{21}
+  \item {setup\+\_\+frames}
+    \subitem {Python\+\_\+\+Client\+::\+Window\+Function}, 
+		\hyperpage{22}
+  \item {setup\+\_\+rgbframe}
+    \subitem {Python\+\_\+\+Client\+::\+Window\+Function}, 
+		\hyperpage{22}
+  \item {setup\+\_\+welcomeframe}
+    \subitem {Python\+\_\+\+Client\+::\+Window\+Function}, 
+		\hyperpage{23}
+  \item {setup\+\_\+window}
+    \subitem {Python\+\_\+\+Client\+::\+Window\+Function}, 
+		\hyperpage{23}
+  \item {Smart}, \hyperpage{7}
+
+  \indexspace
+
+  \item {window\+\_\+close}
+    \subitem {Python\+\_\+\+Client\+::\+Window\+Function}, 
+		\hyperpage{23}
+
+\end{theindex}

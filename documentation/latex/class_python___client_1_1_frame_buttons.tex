@@ -1,0 +1,94 @@
+\hypertarget{class_python___client_1_1_frame_buttons}{}\section{Python\+\_\+\+Client.\+Frame\+Buttons Class Reference}
+\label{class_python___client_1_1_frame_buttons}\index{Python\+\_\+\+Client.\+Frame\+Buttons@{Python\+\_\+\+Client.\+Frame\+Buttons}}
+
+
+This class handles the frame switch buttons.  
+
+
+Inheritance diagram for Python\+\_\+\+Client.\+Frame\+Buttons\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_python___client_1_1_frame_buttons}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{class_python___client_1_1_frame_buttons_a903927dea8f58c84d0a28ce980d1914a}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self, frame, name, nr)
+\begin{DoxyCompactList}\small\item\em The default constructor. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{class_python___client_1_1_frame_buttons_aeb5a8761dfb5bf6c2c1bd96ffee5f8fe}{create\+\_\+button}} (self)
+\begin{DoxyCompactList}\small\item\em creates the button \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{class_python___client_1_1_frame_buttons_abeb6a6d56e4f66ae470b10ac5c849ebb}{frame\+\_\+switch}} (self)
+\begin{DoxyCompactList}\small\item\em switches frames acording to the pressed button \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_python___client_1_1_frame_buttons_a05df5a686b0be0cfe0f3fec43dd1610b}\label{class_python___client_1_1_frame_buttons_a05df5a686b0be0cfe0f3fec43dd1610b}} 
+{\bfseries frame}
+\item 
+\mbox{\Hypertarget{class_python___client_1_1_frame_buttons_aebc39e17fde8bc095a65cf5395ae7da3}\label{class_python___client_1_1_frame_buttons_aebc39e17fde8bc095a65cf5395ae7da3}} 
+{\bfseries name}
+\item 
+\mbox{\Hypertarget{class_python___client_1_1_frame_buttons_a8578c244ff1c429cf3ee508993ae9ac8}\label{class_python___client_1_1_frame_buttons_a8578c244ff1c429cf3ee508993ae9ac8}} 
+{\bfseries nr}
+\item 
+\mbox{\Hypertarget{class_python___client_1_1_frame_buttons_a46d4384e43fbd5c22512088344f90a5f}\label{class_python___client_1_1_frame_buttons_a46d4384e43fbd5c22512088344f90a5f}} 
+{\bfseries button}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This class handles the frame switch buttons. 
+
+The class \mbox{\hyperlink{class_python___client_1_1_frame_buttons}{Frame\+Buttons}} creates and handles the frame switch buttons 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_python___client_1_1_frame_buttons_a903927dea8f58c84d0a28ce980d1914a}\label{class_python___client_1_1_frame_buttons_a903927dea8f58c84d0a28ce980d1914a}} 
+\index{Python\+\_\+\+Client\+::\+Frame\+Buttons@{Python\+\_\+\+Client\+::\+Frame\+Buttons}!\+\_\+\+\_\+init\+\_\+\+\_\+@{\+\_\+\+\_\+init\+\_\+\+\_\+}}
+\index{\+\_\+\+\_\+init\+\_\+\+\_\+@{\+\_\+\+\_\+init\+\_\+\+\_\+}!Python\+\_\+\+Client\+::\+Frame\+Buttons@{Python\+\_\+\+Client\+::\+Frame\+Buttons}}
+\subsubsection{\texorpdfstring{\+\_\+\+\_\+init\+\_\+\+\_\+()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily def Python\+\_\+\+Client.\+Frame\+Buttons.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{frame,  }\item[{}]{name,  }\item[{}]{nr }\end{DoxyParamCaption})}
+
+
+
+The default constructor. 
+
+here the informations for the buttons will be saved in the Class Object
+
+
+\begin{DoxyParams}{Parameters}
+{\em frame} & contains the parent frame / window of the button \\
+\hline
+{\em name} & contains the text/name of the button \\
+\hline
+{\em nr} & contains the number/id of the button (for the frame\+\_\+switch method) \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_python___client_1_1_frame_buttons_aeb5a8761dfb5bf6c2c1bd96ffee5f8fe}\label{class_python___client_1_1_frame_buttons_aeb5a8761dfb5bf6c2c1bd96ffee5f8fe}} 
+\index{Python\+\_\+\+Client\+::\+Frame\+Buttons@{Python\+\_\+\+Client\+::\+Frame\+Buttons}!create\+\_\+button@{create\+\_\+button}}
+\index{create\+\_\+button@{create\+\_\+button}!Python\+\_\+\+Client\+::\+Frame\+Buttons@{Python\+\_\+\+Client\+::\+Frame\+Buttons}}
+\subsubsection{\texorpdfstring{create\+\_\+button()}{create\_button()}}
+{\footnotesize\ttfamily def Python\+\_\+\+Client.\+Frame\+Buttons.\+create\+\_\+button (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+
+
+creates the button 
+
+this method creates the button witch the according colors and command and places them with the .grid method from tkinter \mbox{\Hypertarget{class_python___client_1_1_frame_buttons_abeb6a6d56e4f66ae470b10ac5c849ebb}\label{class_python___client_1_1_frame_buttons_abeb6a6d56e4f66ae470b10ac5c849ebb}} 
+\index{Python\+\_\+\+Client\+::\+Frame\+Buttons@{Python\+\_\+\+Client\+::\+Frame\+Buttons}!frame\+\_\+switch@{frame\+\_\+switch}}
+\index{frame\+\_\+switch@{frame\+\_\+switch}!Python\+\_\+\+Client\+::\+Frame\+Buttons@{Python\+\_\+\+Client\+::\+Frame\+Buttons}}
+\subsubsection{\texorpdfstring{frame\+\_\+switch()}{frame\_switch()}}
+{\footnotesize\ttfamily def Python\+\_\+\+Client.\+Frame\+Buttons.\+frame\+\_\+switch (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+
+
+switches frames acording to the pressed button 
+
+this method is executed, when a frame switch button is pressed, so that the frames switch accordingly 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Python\+\_\+\+Client.\+py\end{DoxyCompactItemize}
