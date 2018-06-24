@@ -28,9 +28,6 @@ Hier sind einige Ideen, welche wir leider nicht mehr realisieren konnten:
 *	Eine benutzung über ein Smart Phone, mittels einer Python App
 
 
----------
-
-
 Entwickler
 ---------
  *	Okan Dogtas (4450377)
