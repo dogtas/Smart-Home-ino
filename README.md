@@ -20,11 +20,16 @@ Das Alarmsystem besteht in unserem Smart-Home aus einem Bewegungsmelder, der RGB
 
 Erweiterungsmöglichkeiten
 ---------
-	Bei der Erweiterung des Programmes sind einem eigentlich keine Grenzen gesetzt.
-	Hier sind einige Ideen, welche wir leider nicht mehr realisieren konnten:
-	*	Funktion zur erkennung von offenen Fenstern und/oder Türen
-	*	Steuerung der Stromzufuhr von einigen Elektrischen Gegenständen im Haus
-	*	Eine benutzung über ein Smart Phone, mittels einer Python App
+Bei der Erweiterung des Programmes sind einem eigentlich keine Grenzen gesetzt.
+Hier sind einige Ideen, welche wir leider nicht mehr realisieren konnten:
+
+*	Funktion zur erkennung von offenen Fenstern und/oder Türen
+*	Steuerung der Stromzufuhr von einigen Elektrischen Gegenständen im Haus
+*	Eine benutzung über ein Smart Phone, mittels einer Python App
+
+
+---------
+
 
 Entwickler
 ---------
